@@ -96,7 +96,7 @@ const resData = await response.json();
             content.innerHTML = "";
         
             if (users.length == 0) {
-              content.innerHTML = "Empty ";
+              content.innerHTML = "Empty";
             }
             
             if(expense === true){
@@ -157,7 +157,7 @@ const resData = await response.json();
       content.innerHTML = "";
   
       if (users.length == 0) {
-        content.innerHTML = "No Users";
+        content.innerHTML = "Empty";
       }
 
 
